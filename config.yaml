@@ -1,0 +1,173 @@
+baseURL: http://organidata.github.io/
+languageCode: es
+title: Organidata
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/organidata_horizontal.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Curso de Análisis de Datos con Python
+    # Hero subtitle (optional)
+    subtitle: ¡Ya es hora de que aprendas todo lo que hay que saber sobre datos!
+    # Button text
+    buttontext: Inscríbete
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - Python
+    - numpy
+    - Pandas
+    - Jupyter Notebooks
+    - matplotlib
+    - Github
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Features
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
+    button: true
+  section1:
+    title: ¿Por qué estudiar Análisis de Datos con Python con Organidata?
+    subtitle:
+    tiles:
+    - title: Aprende desde cero y experimentando
+      icon: mouse-globe
+      text: No es necesario tener conocimientos previos, empezamos a porgramar desde el dia cero y te acompaniamos todo el camino.
+# url: /
+# buttonText: Free trial
+    - title: Seguimiento personalizado
+      icon: laptop-cloud
+      text: Creamos un espacio en el que podras hacer todas las preguntas con las que te sientas comodo y te damos devolcuiones sobre tu progreso y sugerencias personalizas para mejorar.
+# url: /
+# buttonText:  
+    - title: Aplica habilidades laborales
+      icon: plug-cloud
+      text: Desarrolla un proyecto final en el que aplicar todo lo aprendido que consiste en un analisis completo, desde la extraccion de datos hasta la presentacion. Tal como en un trabajo real! 
+# url: /
+# buttonText: Get started
+  section2:
+    title: Contenidos del curso
+# subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: ¿Suena interesante? 
+    subtitle: Ponte en contacto con nosotros y te brindaremos mas informacion
+# image: illustrations/mockups/app-mockup.png
+    buttonText: Escribenos
+    buttonLink: "#"
+  section4:
+    title: ¿Por que son tan importantes los datos? 
+    subtitle: En la actualidad, el 90% de los grandes líderes de negocios eligen a los datos como uno de los principales recursos y un aspecto fundamental a la hora de tomar decisiones, tanto como al capital, mano de obra y tierras.
+    clients:
+    - name: Lisa Utzschneider
+      quote: Los datos son la nueva moneda [..] entre consumidores y comerciantes.
+      job: CEO en Integral Ad Science
+      img: 1
+    - name: Peter Drucker
+      quote: Lo que se mide, se administra.  
+      job: Consultor administrativo, educador y autor
+      img: 2
+    - name: Sir Arthur Conan Doyle
+      quote: Data! Data! Data! No puedo hacer ladrillos sin arcilla!
+      job: Autor de Sherlock Holmes
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+#    logo: organidata_horizontal.png
+    # Social Media Title
+#    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+#    socialmedia:
+#    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+#      icon: github
+#    - link: https://dribbble.com/#
+#      icon: dribbble
+#    - link: https://facebook.com/#
+#      icon: facebook
+#    - link: https://twitter.com/lucperkins
+#      icon: twitter
+#    - link: https://bitbucket.org/#
+#      icon: bitbucket
+    bulmalogo: true
+#    quicklinks:
+#      column1:
+#        title: "Product"
+#        links:
+#        - text: Discover features
+#          link: /
+#        - text: Why choose our product?
+#          link: /
+#        - text: Compare features
+#          link: /
+#        - text: Our roadmap
+#          link: /
+#        - text: AGB
+#          link: /agb
+#      column2:
+#        title: "Docs"
+#        links:
+#        - text: Get started
+#          link: /
+#        - text: User guides
+#         link: /
+#        - text: Admin guide
+#          link: /
+#        - text: Developers
+#          link: /
+#      column3:
+#        title: "Blog"
+#        links:
+#        - text: Latest news
+#          link: /blog/first
+#        - text: Tech articles
+#          link: /blog/second
+
+  
