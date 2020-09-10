@@ -19,7 +19,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/organidata_horizontal.png
+    image: logos/organidata.png
     link: /
   font:
     name: "Open Sans"
@@ -37,12 +37,12 @@ params:
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
-    - Python
+    - python
     - numpy
-    - Pandas
-    - Jupyter Notebooks
+    - pandas
+    - jupyter
     - matplotlib
-    - Github
+    - github
   # Customizable navbar. For a dropdown, add a "sublinks" list.
 # navbar:
 # - title: Features
