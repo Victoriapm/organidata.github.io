@@ -1,4 +1,4 @@
-baseURL: http://organidata.github.io/
+baseURL: https://organidata.github.io/
 languageCode: es
 title: Organidata
 theme: hugo-fresh
@@ -44,24 +44,24 @@ params:
     - matplotlib
     - Github
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
+# navbar:
+# - title: Features
+#   url: /
+# - title: Pricing
+#   url: /
+# - title: Dropdown
+#   sublinks:
+#   - title: Dropdown item
+#     url: /
+#   - title: Dropdown item
+#     url: /
+#   - title: Dropdown item
+#     url: /
+# - title: Log in
+#   url: /
+# - title: Sign up
+#   url: /
+#   button: true
   section1:
     title: ¿Por qué estudiar Análisis de Datos con Python con Organidata?
     subtitle:
