@@ -68,7 +68,7 @@ params:
     tiles:
     - title: Aprende desde cero y experimentando
       icon: mouse-globe
-      text: No es necesario tener conocimientos previos, empezamos a programar desde el primer día y te acompañamos todo el camino.
+      text: No importa tu formación, empezamos a programar desde el primer día y te acompañamos todo el camino.
 # url: /
 # buttonText: Free trial
     - title: Seguimiento personalizado
@@ -89,8 +89,7 @@ params:
       text: Vamos a armar un ambiente de desarrollo y ayudarte a dar los primeros pasos en la programación con Python para análisis de datos. 
       icon: mobile-feed
     - title: Recolección de datos
-      text: Todo proyecto tiene un inicio y cuando de datos se trata es siempre uno muy desordenado. 
-      Vamos a aprender sobre como recolectar datos de distintas fuentes y formas, limpiarlos y transformarlos en estructuras para trabajar.
+      text: Todo proyecto tiene un inicio y cuando de datos se trata es siempre uno muy desordenado. Vamos a aprender sobre como recolectar datos de distintas fuentes y formas, limpiarlos y transformarlos en estructuras para trabajar.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Análisis, visualización y presentación de datos
