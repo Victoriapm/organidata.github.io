@@ -117,7 +117,7 @@ params:
       quote: Data! Data! Data! No puedo hacer ladrillos sin arcilla!
       job: Autor de Sherlock Holmes
       img: 3
-  section5: true
+  section5: false
   footer:
     # Logo (from /images/logos/___)
     logo: organidata_horizontal.png
