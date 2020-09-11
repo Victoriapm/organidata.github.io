@@ -63,46 +63,47 @@ params:
 #   url: /
 #   button: true
   section1:
-    title: ¿Por qué estudiar Análisis de Datos con Python con Organidata?
+    title: ¿Por qué estudiar Análisis de Datos con Organidata?
     subtitle:
     tiles:
     - title: Aprende desde cero y experimentando
       icon: mouse-globe
-      text: No es necesario tener conocimientos previos, empezamos a porgramar desde el dia cero y te acompaniamos todo el camino.
+      text: No es necesario tener conocimientos previos, empezamos a programar desde el primer día y te acompañamos todo el camino.
 # url: /
 # buttonText: Free trial
     - title: Seguimiento personalizado
       icon: laptop-cloud
-      text: Creamos un espacio en el que podras hacer todas las preguntas con las que te sientas comodo y te damos devolcuiones sobre tu progreso y sugerencias personalizas para mejorar.
+      text: Creamos un espacio en el que podras hacer todas las preguntas con las que te sientas comodo y te damos devoluciones sobre tu progreso y sugerencias personalizas para mejorar.
 # url: /
 # buttonText:  
     - title: Aplica habilidades laborales
       icon: plug-cloud
-      text: Desarrolla un proyecto final en el que aplicar todo lo aprendido que consiste en un analisis completo, desde la extraccion de datos hasta la presentacion. Tal como en un trabajo real! 
+      text: Desarrollarás un proyecto final en el que aplicar todo lo aprendido. Un analisis completo de datos a elección, desde la extraccion de datos hasta la presentacion. 
 # url: /
 # buttonText: Get started
   section2:
     title: Contenidos del curso
 # subtitle: And we know it
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Conocimientos básicos de Python, numpy y Pandas
+      text: Vamos a armar un ambiente de desarrollo y ayudarte a dar los primeros pasos en la programación con Python para análisis de datos. 
+      icon: mobile-feed
+    - title: Recolección de datos
+      text: Todo proyecto tiene un inicio y cuando de datos se trata es siempre uno muy desordenado. 
+      Vamos a aprender sobre como recolectar datos de distintas fuentes y formas, limpiarlos y transformarlos en estructuras para trabajar.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Análisis, visualización y presentación de datos
+      text: Vamos a darte las herramientas para entender los datos y las mejores prácticas para presentarlos a tu audiencia.
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
   section3:
     title: ¿Suena interesante? 
-    subtitle: Ponte en contacto con nosotros y te brindaremos mas informacion
+    subtitle: Ponte en contacto con nosotros enviando un mail a organidata@gmail.com y te brindaremos mas informacion
 # image: illustrations/mockups/app-mockup.png
     buttonText: Escribenos
     buttonLink: "#"
   section4:
-    title: ¿Por que son tan importantes los datos? 
+    title: ¿Por qué es tan importante adquirir habilidades para el manejo de datos? 
     subtitle: En la actualidad, el 90% de los grandes líderes de negocios eligen a los datos como uno de los principales recursos y un aspecto fundamental a la hora de tomar decisiones, tanto como al capital, mano de obra y tierras.
     clients:
     - name: Lisa Utzschneider
@@ -120,7 +121,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-#    logo: organidata_horizontal.png
+    logo: organidata_horizontal.png
     # Social Media Title
 #    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
